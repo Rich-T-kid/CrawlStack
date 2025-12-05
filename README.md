@@ -47,16 +47,7 @@ Add CrawlStack to your `Cargo.toml`:
 crawlstack = "0.1.0"
 ```
 
-Basic usage example:
-
-```rust
-use crawlstack::add;
-
-fn main() {
-    let result = add(2, 2);
-    println!("Result: {}", result);
-}
-```
+**Note**: This project is in early development. The API is still being designed. Check back soon for usage examples once the core functionality is implemented.
 
 ## Development
 
