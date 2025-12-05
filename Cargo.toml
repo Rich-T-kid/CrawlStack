@@ -1,0 +1,10 @@
+[package]
+name = "crawlstack"
+version = "0.1.0"
+edition = "2021"
+authors = ["Rich-T-kid"]
+description = "An inverted web scraping index written in Rust"
+license = "MIT"
+repository = "https://github.com/Rich-T-kid/CrawlStack"
+
+[dependencies]
