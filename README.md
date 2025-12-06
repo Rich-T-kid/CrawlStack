@@ -38,17 +38,6 @@ cargo build --release
 cargo test
 ```
 
-## Usage
-
-Add CrawlStack to your `Cargo.toml`:
-
-```toml
-[dependencies]
-crawlstack = "0.1.0"
-```
-
-**Note**: This project is in early development. The API is still being designed. Check back soon for usage examples once the core functionality is implemented.
-
 ## Development
 
 ### Running Tests
@@ -69,33 +58,8 @@ cargo clippy -- -D warnings
 cargo doc --open
 ```
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
-### Development Workflow
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-Please make sure to:
-- Update tests as appropriate
-- Follow the existing code style
-- Run `cargo fmt` before committing
-- Ensure all tests pass with `cargo test`
-- Run `cargo clippy` to check for linting issues
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Project Status
-
-This project is in early development. Features and APIs may change.
-
-## Acknowledgments
-
-Built with ❤️ using Rust
