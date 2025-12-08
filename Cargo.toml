@@ -9,6 +9,7 @@ repository = "https://github.com/Rich-T-kid/CrawlStack"
 
 [dependencies]
 axum = "0.8.7"
+redis = "1.0.0"
 reqwest = "0.12.24"
 scraper = "0.24.0"
 serde = { version = "1.0", features = ["derive"] }
